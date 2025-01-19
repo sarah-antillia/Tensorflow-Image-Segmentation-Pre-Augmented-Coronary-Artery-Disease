@@ -31,7 +31,7 @@ Please see also the following tools <br>
 <hr>
 <b>Actual Image Segmentation for Images of 512x512 pixels</b><br>
  The inferred colorized masks predicted by our segmentation model  appear 
- similar to the ground truth masks, but lack precision in some areas. 
+ similar to the ground truth masks. 
 <table>
 <tr>
 <th>Input: image</th>
