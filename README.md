@@ -4,12 +4,14 @@ This is the first experiment of Image Segmentation for Coronary Artery Disease S
 the <a href="https://github.com/sarah-antillia/Tensorflow-Image-Segmentation-API">Tensorflow-Image-Segmentation-API</a>, and
  a pre-augmented 
 <a href="https://drive.google.com/file/d/1E2FjevHjRC2ulCt8cVYfCFb98h0Y8Eq4/view?usp=sharing">Stenosis-ImageMaskDataset.zip</a>, 
-which is a train dataset of ARCADE <a href="/">
-<b>ARCADE.</b></a><br>
+which is derived by us from the stenosis train dataset of <a href="https://zenodo.org/records/7981245">
+<b>ARCADE: Automatic Region-based Coronary Artery Disease diagnostics using x-ray angiography imagEs Dataset Phase 1</b>
+</a><br>
+
 
 <br>
 <b>Dataset Augmentation Strategy</b><br>
- To address the limited size of ARCADE stenosis train segmentation dataset, which contains 1000  images and their corresponding binary masks in human oesophagus of NuInsSeg dataset, 
+ To address the limited size of ARCADE stenosis train segmentation dataset, which contains 1000  images and their corresponding binary masks in <b>dataset_phase_1/stenosis_dataset</b>, 
  we employed <a href="./generator/ImageMaskDatasetGenerator.py">an offline augmentation tool</a> to generate a pre-augmented dataset, which supports the following augmentation methods.
 <br>
 <li>Vertical flip</li>
