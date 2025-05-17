@@ -1,5 +1,8 @@
-<h2>Tensorflow-Image-Segmentation-Pre-Augmented-Coronary-Artery-Disease (2025/01/20)</h2>
+<h2>Tensorflow-Image-Segmentation-Pre-Augmented-Coronary-Artery-Disease (Updated:2025/05/18)</h2>
 
+<li>2025/05/18: You can download our pretrained model from the Google drive  
+<a href="https://drive.google.com/file/d/1q7gu2e309a7E4D9fQ5MrC1Fe-QvXhcCi/view?usp=sharing">Stenosis-pretrained-best_model.zip</a></li>
+<br>
 This is the first experiment of Image Segmentation for Coronary Artery Disease Stenosis based on
 the <a href="https://github.com/sarah-antillia/Tensorflow-Image-Segmentation-API">Tensorflow-Image-Segmentation-API</a>, and
  a pre-augmented 
